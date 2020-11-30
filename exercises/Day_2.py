@@ -22,12 +22,24 @@ from math import *
 # xx.lower_string()
 #ex3
 #in this exercise I was empty of ideas.... but:
-c,h = 50,30
+# c,h = 50,30
+#
+# def calc(d):
+#     d = int(d)
+#     return str(int(sqrt((2*c*d)/h)))
+#
+# d = input().split(',')
+# d = list(map(calc,d))   # applying calc function on D and storing as a list
+# print(",".join(d))
 
-def calc(d):
-    d = int(d)
-    return str(int(sqrt((2*c*d)/h)))
+#ex4 (7);
+x,y = map(int,input().split(','))
+ls = []
 
-d = input().split(',')
-d = list(map(calc,d))   # applying calc function on D and storing as a list
-print(",".join(d))
+for i in range(x):
+    tmp = []
+    for j in range(y):
+        tmp.append(i*j)
+    ls.append(tmp)
+
+print(ls)
