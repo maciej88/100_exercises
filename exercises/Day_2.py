@@ -1,10 +1,10 @@
 from math import *
-
+#
 # #ex1:
 # lis = input('Podaj iczby: ').split(',')
 # print(lis)
 # print(tuple(lis))
-
+#
 #ex1:
 # class InOutString:
 #     def get_string(self):
@@ -31,8 +31,8 @@ from math import *
 # d = input().split(',')
 # d = list(map(calc,d))   # applying calc function on D and storing as a list
 # print(",".join(d))
-
-#ex4 (7);
+#
+#ex4 (7):
 # x,y = map(int,input().split(','))
 # ls = []
 #
@@ -43,8 +43,21 @@ from math import *
 #     ls.append(tmp)
 #
 # print(ls)
+#
+# #ex 5(8):
+# lst = input().split(',')
+# lst.sort()
+# print(",".join(lst))
+#
+#ex 9:
+text = []
 
-#ex 5(8):
-lst = input().split(',')
-lst.sort()
-print(",".join(lst))
+while True:
+    x = input('write words: ')
+    if len(x) == 0:
+        print('Converting')
+        break
+    text.append(x.upper())
+
+for line in text:
+    print(line)
