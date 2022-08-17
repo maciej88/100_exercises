@@ -1,6 +1,6 @@
 #ex1
 result = []
-for i in range(2000, 3000+1):
+for i in range(2000, 3000+1): # +1 for clear number 3000
     if (i % 7 == 0) and (i %5 != 0):
         result.append(str(i))
 
@@ -16,9 +16,14 @@ x = int(input("wpisz liczbę dla silni: "))
 print(fact(x))
 
 #ex3:
-sqr = int(input("wpiz liczbę do zakresu kwadratu: "))
-d = dict()
-for i in range(1, sqr + 1):
-    d[i] = i * i
+def get_dictionary():
+    try:
+        n = int(input('Enter number: '))
+        d = dict()
+        for i in range(1, n+1):
+            d[i] = i *i
+        return d
+    except ValueError:
+        print("that should be clear number not other!")
 
-print(d)
+print(get_dictionary())
