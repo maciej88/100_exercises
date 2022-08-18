@@ -52,3 +52,11 @@ def sort():
     return print(','.join(items))
 
 sort()
+
+#Q9:
+def get_capitalized():
+    items = input("to capitalize: ")
+    new = items.upper()
+    return print(new)
+
+get_capitalized()
