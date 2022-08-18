@@ -31,3 +31,16 @@ D = [round(i) for i in D] # All the floating values are rounded
 D = [str(i) for i in D]   # All the integers are converted to string to be able to apply join operation
 
 print(",".join(D))
+
+#Q7:
+x,y = map(int,input("two numbers separated by \',\':").split(','))
+print(f"Calcuating arrays for {x} and {y}")
+
+li = []
+
+for i in range(x):
+    tmp = []
+    for j in range(y):
+        tmp.append(i*j)
+    li.append(tmp)
+print(li)
