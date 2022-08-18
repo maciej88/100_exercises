@@ -44,3 +44,11 @@ for i in range(x):
         tmp.append(i*j)
     li.append(tmp)
 print(li)
+
+#Q8:
+def sort():
+    items = input("Words conected by \",\": ").split(',')
+    items.sort()
+    return print(','.join(items))
+
+sort()
