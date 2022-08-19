@@ -31,3 +31,14 @@ def check(element):
 lst = [str(i) for i in range(1000,3001)]        # creates list of all given numbers with string data type
 lst = list(filter(check,lst))                   # filter removes element from list if check condition fails
 print(",".join(lst))
+
+#Q13:
+word = input()
+letter, digit = 0,0
+
+for i in word:
+    if i.isalpha(): # returns True if alphabet
+        letter += 1
+    elif i.isnumeric(): # returns True if numeric
+        digit += 1
+print(f"LETTERS {letter}\n{digits}") # two different types of formating method is shown in both solution
