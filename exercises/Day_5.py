@@ -1,0 +1,13 @@
+#16:
+def get_odd():
+    raw = input('numbers: ').split(',')
+    lst = []
+    raw = [int(i) for i in raw]
+    for i in raw:
+        if i %2 != 0:
+            i = i* i
+            lst.append(str(i))
+
+    print(lst)
+
+get_odd()
