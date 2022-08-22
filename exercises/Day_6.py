@@ -10,3 +10,15 @@ def get_validation():
             print(approved)
 
 get_validation()
+
+#Q19:
+from operator import itemgetter, attrgetter
+
+l = []
+while True:
+    s = input()
+    if not s:
+        break
+    l.append(tuple(s.split("," and '\n')))
+
+print(sorted(l, key=itemgetter(0,1,2)))
