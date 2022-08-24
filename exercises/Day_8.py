@@ -30,3 +30,12 @@ def pow(n,p):
 
 print(pow(3,4))
 print(pow.__doc__)
+
+#Q25:
+class Robot:
+    name = "Robot"
+    def __init__(self, name):
+        self.name = name
+
+vector = Robot("Vector")
+print(vector.name, Robot.name)
