@@ -21,3 +21,16 @@ def concentrate(x, y):
     return print(x + y)
 
 concentrate("8", "2")
+
+#Q30:
+def get_lenght(x, y):
+    y1 = len(y)
+    x1 = len(x)
+    if x1 > y1:
+        return print(f"{x} - longer: {x1}")
+    elif y1 > x1:
+        return print(f"{y} - longer: {y1}")
+    else:
+        return print("booth the same")
+
+get_lenght("ala ma", "kocuraaaa")
