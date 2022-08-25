@@ -17,3 +17,7 @@ def sum_str(x, y):
 sum_str("5", "3")
 
 #Q29:
+def concentrate(x, y):
+    return print(x + y)
+
+concentrate("8", "2")
