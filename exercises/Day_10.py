@@ -16,3 +16,12 @@ def get_new_dict():
         print(k)
 
 get_new_dict()
+
+#Q33:
+def get_sqr_list():
+    lst = []
+    for i in range(1, 21):
+        lst.append(i**2)
+    return print(lst)
+
+get_sqr_list()
