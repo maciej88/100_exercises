@@ -52,3 +52,12 @@ def get_sqr_list_half():
     return print(lst[5:])
 
 get_sqr_list_half()
+
+#Q37:
+def get_sqr_tuple():
+    lst = []
+    for i in range(1, 21):
+        lst.append(i**2)
+    return print(tuple(lst))
+
+get_sqr_tuple()
