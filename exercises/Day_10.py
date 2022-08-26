@@ -34,3 +34,12 @@ def get_sqr_list_part():
     return print(lst[:5])
 
 get_sqr_list_part()
+
+#Q35:
+def get_sqr_list_last():
+    lst = []
+    for i in range(1, 21):
+        lst.append(i**2)
+    return print(lst[-5:])
+
+get_sqr_list_last()
