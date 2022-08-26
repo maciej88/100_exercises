@@ -25,3 +25,12 @@ def get_sqr_list():
     return print(lst)
 
 get_sqr_list()
+
+#Q34:
+def get_sqr_list_part():
+    lst = []
+    for i in range(1, 21):
+        lst.append(i**2)
+    return print(lst[:5])
+
+get_sqr_list_part()
