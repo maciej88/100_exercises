@@ -27,3 +27,11 @@ def yes_not():
         print('No')
 
 yes_not()
+
+#Q41:
+def sqrs(item):
+    return item ** 2
+
+
+lst = [i for i in range(1, 11)]
+print(list(map(sqrs, lst)))
