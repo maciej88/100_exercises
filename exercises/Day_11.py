@@ -17,3 +17,13 @@ for i in tpl:
 
 tpl2 = tuple(li)
 print(tpl2)
+
+#Q40:
+def yes_not():
+    q = input("Yes or No?: ")
+    if q == 'Yes' or q == 'yes' or q == 'YES':
+        print("Yes")
+    else:
+        print('No')
+
+yes_not()
