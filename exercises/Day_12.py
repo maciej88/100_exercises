@@ -5,7 +5,7 @@ def sqr_nums(items):
 print(list(map(sqr_nums, range(1, 21))))
 
 #Q45 & Q46:
-class American(object):
+class American():
     @staticmethod
     def printNationality():
         print('America')
