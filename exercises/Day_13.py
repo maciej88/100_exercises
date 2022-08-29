@@ -16,15 +16,27 @@ class Ractangle:
     def area(self):
         return self.l * self.w
 
-class Shape:
+class Shape():
     def __init__(self):
         pass
 
     def area(self):
         return 0
+
+class Square(Shape):
+    def __init__(self, l=0):
+        Shape.__init__(self)
+        self.l = l
+
+    def area(self):
+        return self.l * self.l
+
 if __name__ == "__main__":
     a = Circle(2)
     print(a.area())
 
     b = Ractangle(2, 3)
     print(b.area())
+
+    c = Square(5)
+    print(c.area())
