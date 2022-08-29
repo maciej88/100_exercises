@@ -16,6 +16,7 @@ class Ractangle:
     def area(self):
         return self.l * self.w
 
+#Q49:
 class Shape():
     def __init__(self):
         pass
@@ -30,6 +31,10 @@ class Square(Shape):
 
     def area(self):
         return self.l * self.l
+
+
+#Q51:
+raise RuntimeError('nope')
 
 if __name__ == "__main__":
     a = Circle(2)
