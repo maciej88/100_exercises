@@ -25,3 +25,7 @@ try:
         raise CustomError("try 0")
 except CustomError as ce:
     print("you made it " + ce.err)
+
+#Q53:
+email = input("enter email")
+print(email.split("@")[0])
