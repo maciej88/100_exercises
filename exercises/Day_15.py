@@ -11,4 +11,9 @@ def calculus():
     n = input("sentence: ")
     print(re.findall("\d+", n))
 
-calculus()
+#Q56:
+def unicode():
+    sentence = u"Hello World"
+    print(sentence)
+
+unicode()
