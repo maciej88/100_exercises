@@ -16,4 +16,7 @@ def unicode():
     sentence = u"Hello World"
     print(sentence)
 
-unicode()
+#Q57:
+s = input("any string: ")
+u = s.encode('utf-8')
+print(u)
