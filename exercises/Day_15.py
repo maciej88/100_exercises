@@ -20,3 +20,6 @@ def unicode():
 s = input("any string: ")
 u = s.encode('utf-8')
 print(u)
+
+#Q58:
+# -*- coding: utf-8 -*-
