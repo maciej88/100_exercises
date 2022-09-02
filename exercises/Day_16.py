@@ -39,3 +39,13 @@ for i in range(0, n+1, 2):
         print(i, end=',')
     else:
         print(i)
+
+#64:
+def num_generator(n):
+    for i in range(0, n+1):
+        if i % 5 == 0 and i % 7 == 0:
+            yield i
+
+n = int(input("another number: "))
+result = [str(i) for i in num_generator(n)]
+print(",".join(result))
