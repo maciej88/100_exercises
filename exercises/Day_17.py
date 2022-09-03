@@ -26,3 +26,8 @@ def binary_search(lst, item):
 
 lst = [1, 3, 5, 7, ]
 print(binary_search(lst, 9))
+
+#Q68:
+import random
+rand_num = random.uniform(10,100)
+print(rand_num)
