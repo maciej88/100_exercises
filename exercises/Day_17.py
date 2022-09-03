@@ -31,3 +31,7 @@ print(binary_search(lst, 9))
 import random
 rand_num = random.uniform(10,100)
 print(rand_num)
+
+#Q69:
+rand_num = random.uniform(5,95)
+print(rand_num)
