@@ -7,3 +7,6 @@ print(random.choice(rand))
 rand = [i for i in range(0, 151) if i%5 == 0 and i%7 == 0]
 print(random.choice(rand))
 
+#Q72:
+rand = random.sample(range(100, 200),5 )
+print(rand)
