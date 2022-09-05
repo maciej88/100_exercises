@@ -21,3 +21,8 @@ for i in range(100):
 end_time = datetime.datetime.now()
 result = end_time - start_time
 print(result)
+
+#Q78:
+li = [3,6,7,8]
+random.shuffle(li)
+print(li)
