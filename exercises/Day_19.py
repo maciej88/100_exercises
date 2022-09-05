@@ -1,5 +1,7 @@
 import random
 import zlib
+import datetime
+from random import shuffle
 
 #Q75:
 print(random.randrange(7, 16))
@@ -11,3 +13,11 @@ y = bytes(s, 'utf-8')
 x = zlib.compress(y)
 print(x)
 print(zlib.decompress(x))
+
+#Q77:
+start_time = datetime.datetime.now()
+for i in range(100):
+    x = 1 + 1
+end_time = datetime.datetime.now()
+result = end_time - start_time
+print(result)
