@@ -1,7 +1,7 @@
 import random
 import zlib
 import datetime
-from random import shuffle
+import itertools
 
 #Q75:
 print(random.randrange(7, 16))
@@ -26,3 +26,11 @@ print(result)
 li = [3,6,7,8]
 random.shuffle(li)
 print(li)
+
+#79:
+who = ["I", "You"]
+what = ["Play", "Love"]
+sport = ["Hockey","Football"]
+combination_list = [who, what, sport]
+finish = list(itertools.product(*combination_list))
+print(finish)
