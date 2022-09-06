@@ -19,3 +19,7 @@ print(li)
 li = [12,24,35,70,88,120,155]
 li = [li[i] for i in range(len(li)) if i < 3 or i > 4]
 print(li)
+
+#Q84:
+array = [[ [0 for col in range(8)] for col in range(5)] for row in range(3)]
+print(array)
