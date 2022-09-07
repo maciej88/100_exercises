@@ -21,3 +21,24 @@ print(s1)
 lst = [12,24,35,24,88,120,155,88,120,155]
 s1 = set(lst)
 print(sorted(s1))
+
+#Q89:
+class Person(object):
+    def __init__(self):
+        self.gender = "none"
+
+    def get_gender(self):
+        print(self.gender)
+
+class Male(Person):
+    def __init__(self):
+        self.gender = 'Male'
+
+class Female(Person):
+    def __init__(self):
+        self.gender = 'Female'
+
+one = Person()
+one.get_gender()
+two = Female()
+two.get_gender()
