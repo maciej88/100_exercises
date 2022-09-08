@@ -8,3 +8,8 @@ for i in sorted(set(string)):
 x = input('another for reverse: ')
 x = x[::-1]
 print(x)
+
+#Q92:
+x = input('another for reverse: ')
+x = x[::2]
+print(x)
