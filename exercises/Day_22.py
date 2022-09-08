@@ -18,3 +18,15 @@ print(x)
 
 #Q93:
 print(list(itertools.permutations([1, 2, 3])))
+
+#Q94:
+def answer(head, legs):
+    if head*2 == legs:
+        return print(f"Chickens: {head}, no rabbits")
+    elif head*2 <= legs:
+        result = legs - (head*2)
+        rabbits = result/2
+        chickens = (head) - rabbits
+        return print(f'chickens: {int(chickens)}, rabbits: {int(rabbits)}')
+
+answer(35, 94)
