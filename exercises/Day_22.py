@@ -1,3 +1,5 @@
+import itertools
+
 #Q90:
 string = input('Give word: ')
 dic = {}
@@ -13,3 +15,6 @@ print(x)
 x = input('another for reverse: ')
 x = x[::2]
 print(x)
+
+#Q93:
+print(list(itertools.permutations([1, 2, 3])))
