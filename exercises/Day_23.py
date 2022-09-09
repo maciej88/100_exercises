@@ -1,5 +1,6 @@
 import textwrap
 import string
+import calendar
 
 #Q95:
 x = int(input("Score: "))
@@ -33,3 +34,9 @@ def rangoli():
     print(r)
 
 rangoli()
+
+#Q98:
+month, day, year = map(int, input().split())
+
+dayId = calendar.weekday(year, month, day)
+print(calendar.day_name[dayId].upper())
