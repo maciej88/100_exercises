@@ -40,3 +40,15 @@ month, day, year = map(int, input().split())
 
 dayId = calendar.weekday(year, month, day)
 print(calendar.day_name[dayId].upper())
+
+#Q99:
+n = int(input())
+set1 = set(map(int, input().split()))
+
+m = int(input())
+set2 = set(map(int, input().split()))
+
+result = list(set1 ^ set2)
+result.sort()
+for i in result:
+    print(i)
