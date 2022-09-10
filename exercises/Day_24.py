@@ -23,3 +23,13 @@ for i in letters:
 d = sorted(d.items(), key=lambda x: (-x[1], x[0]))
 for i in d:
     print(i[0], i[1])
+
+#Q102:
+word = input()
+digit,letter = 0,0
+for char in word:
+    digit+=char.isdigit()
+    letter+=char.isalpha()
+
+print('Digit -',digit)
+print('Letter -',letter)
